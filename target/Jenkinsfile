@@ -5,7 +5,7 @@ pipeline {
         stage('Build'){
     		steps {
 		        git 'https://github.com/Tsinda/Jenkins_Auto_Tests.git'
-		        bat '.mvnw clean compile'
+		        bat '.mvn clean compile'
 		    }
            
         }
